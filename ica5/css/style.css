@@ -9,7 +9,26 @@ html {
 body {
   margin: 0;
   background: #ccc;
+
+  background: top/contain
+    no-repeat
+    url(top-image.png);
+  background: top / contain
+    no-repeat
+    url(top-image.png),
+    bottom/contain
+    no-repeat
+    url(bottom-image.png),
+    linear-gradient(rgba(0,0,0,0.20) 0%,
+    rgba(0,0,0,0) 20%,
+    rgba(0,0,0,0) 80%,
+    rgba(0,0,0,0.20) 100%);
+  background-color: white;
+  border-top: 1mm solid red;
+  border-bottom: 1mm solid red;
+
 }
+
 
 article {
   width: 210mm;
@@ -36,6 +55,12 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+  
+  background-image: url(logo.png);
+  filter: drop-shadow(4px 4px 4px black);
+  border-radius:50;
+
 }
 
 /* Your CSS below here */
+
