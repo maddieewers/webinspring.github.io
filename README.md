@@ -5,3 +5,4 @@
 # In-Class Assignments:
 
 # Weekly Assignments:
+# [wa1]:https://maddieewers.github.io/wa/wa1.html
