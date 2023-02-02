@@ -3,7 +3,8 @@
 # Projects:
 
 # In-Class Assignments:
-
+# [ICA3A]: https://maddieewers.github.io/ica/ica3a.html
+# [ICA3B]: https://maddieewers.github.io/ica3-part2/assets/
 # Weekly Assignments:
 # [wa1]:https://maddieewers.github.io/wa/wa1.html
 # [wa2]:http://maddieewers.github.io/wa/wa2.html
