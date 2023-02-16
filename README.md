@@ -11,5 +11,5 @@
 # Weekly Assignments:
 # [WA1]:https://maddieewers.github.io/wa/wa1.html
 # [WA2]:http://maddieewers.github.io/wa/wa2.html
-# [WA3]: https://github.com/maddieewers/maddieewers.github.io/tree/main/Assignment3
-# [WA4]: https://github.com/maddieewers/maddieewers.github.io/blob/main/wa/Assignment4.html
+# [WA3]: 
+# [WA4]: 

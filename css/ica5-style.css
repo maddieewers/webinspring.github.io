@@ -8,7 +8,7 @@
   
   body {
     margin: 0;
-    background: #ccc;
+    background: white;
   }
   
   article {
@@ -41,18 +41,17 @@
   /* Your CSS below here */
   /* is it okay to be doing the thing I did below with url for bakcground...had some trouble and found this torublehsoot online?*/
   article {
-    background: url(https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-boxes/letterheaded-paper-start/top-image.png) no-repeat local;
-    border-top: 10px solid red;
-  }
-
-  /*cannot get bottom border to display*/
-  article{
-    background: url(https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-boxes/letterheaded-paper-start/bottom-image.png) no-repeat local;
-    border-bottom: 10px solid red;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0)20%, rgba(0,0,0,0)80%, rgba(0,0,0,0.2)),url(https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-boxes/letterheaded-paper-start/top-image.png) no-repeat left top,
+    url(https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-boxes/letterheaded-paper-start/bottom-image.png) no-repeat left bottom;
   }
 
   h1 {
     background: url(https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-boxes/letterheaded-paper-start/logo.png);
-    box-shadow: 5px 5px 2px grey;
-    border-radius: 50%;
+    border-radius: 60px;
+    box-shadow: 3px 3px 3px black;
+  }
+
+  article {
+    border-top: 5mm solid red;
+    border-bottom: 5mm solid red;
   }
