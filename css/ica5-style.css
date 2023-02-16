@@ -45,6 +45,7 @@
     border-top: 10px solid red;
   }
 
+  /*cannot get bottom border to display*/
   article{
     background: url(https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-boxes/letterheaded-paper-start/bottom-image.png) no-repeat local;
     border-bottom: 10px solid red;
