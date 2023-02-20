@@ -1,0 +1,56 @@
+/*.sheema {
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+
+.starting {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.starting img {
+    width: 10%;
+    float: left;
+}
+
+.john {
+    position: absolute;
+    bottom: 15px;
+    right: 250px;
+}
+
+.john img {
+    width: 80%;
+    float: right;
+} */
+
+.sheema {
+    position: relative;
+    top: 0;
+    /*width:70%
+    margin: auto*/
+    left: 0;
+}
+
+.john{
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.john img {
+    width: 10%;
+    float: left;
+}
+
+.scoreboard {
+    position: absolute;
+    bottom: 20px;
+    right: 230px;
+}
+
+.second img {
+    width: 80%;
+    float: right;
+}
