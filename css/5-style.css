@@ -1,21 +1,16 @@
 .sheema {
     position: relative;
-    top: 0;
-    /*width:70%
-    margin: auto*/
-    left: 0;
+    top:0;
+    left:0;
 }
 
-.sheema img {
-    width: 100%;
-    position: relative;
-}
 
 .john {
     position: absolute;
-    top: 0;
-    left: 30px;
+    top: 60px;
+    left: 80px;
 }
+
 .john img {
     width: 10%;
     float: left;
@@ -24,10 +19,10 @@
 .scoreboard {
     position: absolute;
     bottom: 20px;
-    right: 230px;
+    right: 50px;
 }
 
-.second img {
+.scoreboard img {
     width: 80%;
     float: right;
 }
