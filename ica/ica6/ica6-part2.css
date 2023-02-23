@@ -13,15 +13,15 @@ body{
 
 
 #grid-parent{
-    display:grid;
+    display: grid;
 }
 
 #grid-parent h1{
     background-color: grey;
     padding:3vw 5vh;
     margin:5vw;
-    
 }
+
 #no0{
 
 }
@@ -51,4 +51,26 @@ body{
 }
 #no9{
 
+}
+
+/* added this code...*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#space1 {
+
+}
+
+#space2 {
+    
 }
