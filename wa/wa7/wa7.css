@@ -10,13 +10,40 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     height:20px;
-    background-color: blueviolet;
+    /*added code*/
+    background-color: rgb(239, 226, 251);
+    position: relative;
+    top: -750px;
 }
 nav a{
     width:10vw;
     text-align: center;
     text-decoration: none;
-    color:black;
+    /*added code*/
+    color:rgb(125, 173, 99);
+}
+
+/*added code*/
+div {
+    width: 400px;
+    height: 400px;
+    background: repeat left -17px top -22px/55px 55px url(/img/wallpaper.png),
+        repeating-linear-gradient(
+            to right,
+            transparent,
+            transparent 100px,
+            brown 100px,
+            brown 100px
+        ),
+        repeating-linear-gradient(
+            to bottom,
+            transparent,
+            transparent 75px,
+            rgb(125,173,99) 75px,
+            rgb(125,173,99) 75px
+        ),
+        linear-gradient(55deg,yellow, brown);
+        grid-area
 }
 
 
@@ -33,4 +60,12 @@ img{
     position: absolute;
     left:5vw;
     top:0;
+}
+
+/*added code*/
+h1 {
+    font: 2.5em "Fira Sans", serif;
+    color:brown;
+    position: relative; 
+    top: -500px;
 }
