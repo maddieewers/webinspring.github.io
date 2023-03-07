@@ -11,7 +11,7 @@ nav{
     justify-content: space-between;
     height:20px;
     /*added code*/
-    background-color: rgb(239, 226, 251);
+    background-color: rgb(35, 15, 54);
     position: relative;
     top: -750px;
 }
@@ -39,13 +39,22 @@ div {
             to bottom,
             transparent,
             transparent 75px,
-            rgb(125,173,99) 75px,
-            rgb(125,173,99) 75px
+            white 75px,
+            white 75px
         ),
         linear-gradient(55deg,yellow, brown);
-        grid-area
+        grid-area: 2/1;
+        cursor: pointer;
 }
 
+/*added code*/
+div:hover {
+    background: repeating-linear-gradient(
+        to right,
+        transparent,
+        
+    )
+}
 
 img{
     width:30vw;
@@ -53,7 +62,7 @@ img{
 }
 
 #red-ball{
-    background-color: crimson;
+    background-color: black;
     width: 20px;
     height:20px;
     border-radius: 50%;

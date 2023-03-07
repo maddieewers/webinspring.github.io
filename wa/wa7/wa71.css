@@ -1,0 +1,156 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(122, 239, 150, 0.875);
+}
+
+h1{
+    font: italic 5em "Fira Sans", bold;
+    color: black;
+    position: relative; top: 100px;
+  }
+
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: bisque;
+    position: relative; top: -740px;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+div {
+    width: 380px;
+    height: 380px;
+    background: repeat left -17px top -22px/55px 55px
+        url(https://github.com/maddieewers/maddieewers.github.io/blob/main/img/wallpaper.png),
+      repeating-linear-gradient(
+        to right,
+        transparent,
+        transparent 50px,
+        brown 50px,
+        brown 55px
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent 50px,
+        brown 50px,
+        brown 55px
+      ),
+      linear-gradient(45deg, black, brown);
+    grid-area: 2 / 1;
+    cursor: pointer;
+  }
+  
+  div:hover {
+    background: repeating-linear-gradient(
+        to right,
+        transparent,
+        transparent 50px,
+        rgba(122, 239, 150, 0.875) 50px,
+        rgba(122, 239, 150, 0.875) 55px
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent 50px,
+        black 50px,
+        black 55px
+      ),
+      linear-gradient(45deg, brown, white);
+    box-shadow: 10px 10px 20px white;
+  }
+  
+  div:hover + img {
+    filter: drop-shadow(10px 10px 20px brown);
+  }
+  
+  img {
+    grid-area: 2 / 1;
+    position: relative;
+    top: -3px;
+    pointer-events: none;
+  }
+
+  img {
+    width: 15vw;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    position: relative;
+    filter: drop-shadow(30px 40px 30px pink);
+  }
+
+  
+  h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+  }
+  
+  body {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    grid-template-rows: 30px 400px;
+    margin-top: calc(50vh - 215px);
+  }
+  
+  @supports (-moz-appearance: none) {
+    div {
+      background: repeat left -17px top -20px/55px 55px
+          url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 35px 35px'><foreignObject width='35px' height='35px'><div xmlns='http://www.w3.org/1999/xhtml' style='color:transparent;text-shadow: 0 0 white;font:35px serif'>✦</div></foreignObject></svg>"),
+        repeating-linear-gradient(
+          to right,
+          transparent,
+          transparent 50px,
+          brown 50px,
+          brown 55px
+        ),
+        repeating-linear-gradient(
+          to bottom,
+          transparent,
+          transparent 50px,
+          brown 50px,
+          brown 55px
+        ),
+        linear-gradient(45deg, white, brown);
+    }
+  }
+
+    
+
+#red-ball{
+    background-color: rgba(122, 239, 150, 0.875);
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: relative;
+    left:5vw;
+    top:0;
+    animation-name: redmove;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+
+@keyframes redmove{
+  0%{left:0; top:0;}
+  25%{left:75vw; top:0;}
+  50%{left:75vw; top:80vh;}
+  75%{left:0vw; top:80vh;}
+  100%{left:0; top:0;}
+}
