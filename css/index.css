@@ -32,3 +32,18 @@ ul {
   .active {
     background-color: #4CAF50;
   }
+
+  img {
+    width: 50vw;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    position: relative;
+    margin-top: 100px;
+    background-size: cover;
+  }
+
+  body {
+    background-image: url("background.png");
+    background-color: rgb(183, 121, 167);
+   }
