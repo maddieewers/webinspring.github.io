@@ -16,7 +16,12 @@ async function getQuote() {
         const json = await response.json();
         //console.log(json.question);
         //console.log(json.answer);
-        displayQuote(json.question)
+        displayQuote(json.question);
+        showAnswer(json.answer);
+        //console.log(json.answer);
+
+        //const answerButton = document.querySelector("#js-tweet")
+        //answerButton.addEventListener('click', showAnswer(json.answer));
     }
     catch (err) {
         console.log(err);
@@ -27,6 +32,11 @@ async function getQuote() {
 function displayQuote(quote) {
     const quoteText = document.querySelector("#js-quote-text");
     quoteText.textContent = quote;
+}
+
+function showAnswer(quote) {
+    const quoteText = document.querySelector("#js-answer-text");
+    answerText.textContent = quote;
 }
 
 getQuote();
